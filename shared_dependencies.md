@@ -1,4 +1,10 @@
-1. Tailwind CSS: A CSS framework used for styling the website. It is shared between "index.html" and "styles.css".
-2. Custom CSS classes: These classes will be defined in "styles.css" and used in "index.html" for additional styling.
-3. DOM element IDs: Unique IDs assigned to specific elements in "index.html" that may be used for styling or JavaScript functionality.
-4. HTML structure: The structure of the "index.html" file, which includes the layout and organization of the website's content.
+Shared dependencies between the files:
+
+1. Tailwind CSS: The styling framework used in both "index.html" and "styles.css".
+2. DOM element IDs: 
+   - "name" for the person's name
+   - "role" for the person's role
+   - "twitter" for the person's Twitter handle
+   - "bio" for the person's bio
+3. CSS classes:
+   - "link-button" for styling the links as buttons in "styles.css" and used in "index.html" for the Twitter link.
